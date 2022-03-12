@@ -1,0 +1,29 @@
+.f-ver{
+  font-family: 'Verdana', sans-serif;
+}
+.f-noto{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+@mixin inpc{
+  @media screen and (max-width: 1217px){
+    @content;
+  }
+}
+@mixin tb{
+  @media screen and (max-width: 1024px){
+    @content;
+  }
+}
+@mixin bd{
+  @media screen and (max-width: 700px){
+    @content;
+  }
+}
+@mixin sp{
+  @media screen and (max-width: 560px){
+    @content;
+  }
+}
+.shadow{
+  box-shadow: 0 3px 11px rgba(0,0,0,0.16);
+}
